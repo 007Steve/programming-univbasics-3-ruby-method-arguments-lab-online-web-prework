@@ -8,7 +8,9 @@ expect{introduction("Josh")}.to output("Hi, my name is Josh.\n").to_stdout
 end
 
 
-
+def introduction(name)
+  puts "Hi, my name is #{name}."
+end
 
 
 
